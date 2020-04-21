@@ -41,6 +41,7 @@ function ColourEvent(e) {
   setColour(e,FindColourForTitle(e,CalendarApp.EventColor.RED       ,title,"Management","Leadership","Delivery","Town Hall","Brad"));
   setColour(e,FindColourForTitle(e,CalendarApp.EventColor.PALE_GREEN,title,"yoga","mindfulness"));
   setColour(e,FindColourForTitle(e,CalendarApp.EventColor.PALE_BLUE ,title,"giants","ligi"));
+  setColour(e,FindColourForTitle(e,CalendarApp.EventColor.ORANGE    ,title,"happy hour","beer","breakfast","party","social"));
 }
 
 // return the passed colour if title matches the list provided, otherwise return the current colour, so that SetColour does nothing.
